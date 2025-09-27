@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Equipe 2 - Sublime Text</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- CSS do Reveal -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css" id="theme">
+
+  <style>
+  	#simbolo-reveal {
+  		width: 50px;
+  		height: auto;
+  	}
+  	#simbolo-sublime-icon {
+  		width: 50px;
+  		height: auto;
+  	}
+  	#foto-equipe {
+  		position: absolute;
+  		width: 300px;
+  		margin: auto;
+  		right: 0px;
+  	}
+  	#popup {
+
+  	}
+		#simbolo-sublime{
+			width: 10%;
+		}
+		.sublime-text {
+			color: #ff9702 !important;
+		}
+		.vibrate-1 {
+			-webkit-animation: vibrate-1 0.3s linear infinite both;
+			        animation: vibrate-1 0.3s linear infinite both;
+		}
+		.scale-up-center {
+			-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+			        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+			      }
+		@-webkit-keyframes vibrate-1 {
+		  0% {
+		    -webkit-transform: translate(0);
+		            transform: translate(0);
+		  }
+		  20% {
+		    -webkit-transform: translate(-2px, 2px);
+		            transform: translate(-2px, 2px);
+		  }
+		  40% {
+		    -webkit-transform: translate(-2px, -2px);
+		            transform: translate(-2px, -2px);
+		  }
+		  60% {
+		    -webkit-transform: translate(2px, 2px);
+		            transform: translate(2px, 2px);
+		  }
+		  80% {
+		    -webkit-transform: translate(2px, -2px);
+		            transform: translate(2px, -2px);
+		  }
+		  100% {
+		    -webkit-transform: translate(0);
+		            transform: translate(0);
+		  }
+		}
+		@keyframes vibrate-1 {
+		  0% {
+		    -webkit-transform: translate(0);
+		            transform: translate(0);
+		  }
+		  20% {
+		    -webkit-transform: translate(-2px, 2px);
+		            transform: translate(-2px, 2px);
+		  }
+		  40% {
+		    -webkit-transform: translate(-2px, -2px);
+		            transform: translate(-2px, -2px);
+		  }
+		  60% {
+		    -webkit-transform: translate(2px, 2px);
+		            transform: translate(2px, 2px);
+		  }
+		  80% {
+		    -webkit-transform: translate(2px, -2px);
+		            transform: translate(2px, -2px);
+		  }
+		  100% {
+		    -webkit-transform: translate(0);
+		            transform: translate(0);
+		  }
+		@-webkit-keyframes scale-up-center {
+		  0% {
+		    -webkit-transform: scale(0.5);
+		            transform: scale(0.5);
+		  }
+		  100% {
+		    -webkit-transform: scale(1);
+		            transform: scale(1);
+		  }
+		}
+		@keyframes scale-up-center {
+		  0% {
+		    -webkit-transform: scale(0.5);
+		            transform: scale(0.5);
+		  }
+		  100% {
+		    -webkit-transform: scale(1);
+		            transform: scale(1);
+		  }
+		}
+
+		  table.comparacao {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9em;
+    }
+
+    table.comparacao th,
+    table.comparacao td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    table.comparacao th {
+      background-color: #2d2d2d;
+      color: #fff;
+    }
+
+    table.comparacao td:nth-child(1) {
+      background-color: #f0f0f0;
+      font-weight: bold;
+      width: 30%;
+    }
+
+    table.comparacao td:nth-child(2),
+    table.comparacao td:nth-child(3) {
+      width: 35%;
+    }
+
+    @media (max-width: 768px) {
+      table.comparacao {
+        font-size: 0.75em;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <!-- Slide 1 -->
+      <section>
+        <h1>🚀 EQUIPE DOIS</h1>
+        <hr>
+        <br>
+        <div class="fragment" style="display: flex">
+        	<div>
+		        <h5>Leonardo Lima de Paula</h5>
+		        <h5>Victor Adler Cavalcante</h5>
+		        <h5>Rikelme Botelho Pessoa</h5>
+		        <h5>Jefferson Sant'ana Galvão</h5>
+        	</div>
+        	<div>
+		        <img id="foto-equipe" src="img/equipe.jpeg">
+        	</div>
+        	
+        </div>
+        <div style="margin-top: 50px; vertical-align: middle; display:flex; flex-direction: row; align-items: center; justify-content: center; gap:15px">
+		        <small>Feita com <strong>Reveal.js</strong></small>
+		        <img id="simbolo-reveal" src="img/reveal-logo.png">
+		        <small>usando <b>Sublime Text</b></small>
+		        <img id="simbolo-sublime-icon" src="img/sublime-logo.png">
+        </div>
+      </section>
+
+      <!-- Slide 2 (sub-slides) -->
+      <section>
+        <section data-background="#474747">
+          <h2 class="sublime-text">Sublime Text</h2>
+          <img id="simbolo-sublime" src="img/sublime-logo.png">
+
+          <p>Editor leve, rápido e extensível</p>
+        </section>
+        <section data-background="img/interface.png" data-background-size="90%">
+
+        </section>
+      </section>
+
+      <!-- Slide 3 (Vantagens) -->
+   	  <section data-background="#1d3022">
+        <h3>✅ Vantagens</h3>
+		    <ul>
+	        <li class="fragment fade-in-then-semiout">Interface limpa <span>Já começa no Night Mode</span></li>
+	        <div class="fragment">
+		        <li>Leve e rápido</li>
+	        	<img src="img/ram.png">
+	        </div>
+
+	        <li class="fragment fade-in">Extremamente Simples</li>
+	      </ul>
+	    </section>
+
+	    <!-- Slide 4 (Desvantas) -->
+      <section data-background="#4f0000">
+        <h3>❌ Desvantagens</h3>
+        <ul>
+        	<li class="fragment fade-in-then-semi-out">Extremamente Simples</li>
+        	<li class="fragment fade-in-then-semi-out">Altamente dependente de plugins, majoritariamente mantido pela comunidade (não-oficial)</li>
+        	<div class="fragment scale-in-center ">
+	        	<li>É pago</li>
+	        	<img src="img/pay-popup.png">
+        	</div>
+      </section>
+      <section data-background="#4f0000">
+        <h3>❌ Desvantagens</h3>
+          <li class="fragment fade-in-then-semi-out">Não é IDE completa</li>
+          <li class="fragment fade-in-then-semi-out">Não possui depurador nativo nem gerenciamento integrado de projeto</li>
+          <li class="fragment fade-in-then-semi-out">É pago</li>
+          <li class="fragment fade-in-then-semi-out">Atalhos envolvem uso de múltiplos botões</li>
+          <li class="fragment fade-in-then-semi-out">Renomear arquivos ou Criar Pastas é estranho e nada intuitivo</li>  	
+        </ul>
+      </section>
+       <section data-background="#4f0000">
+        <h3>❌ Desvantagens</h3>
+          <li class="fragment fade-in-then-semi-out">É pago</li>
+        	<img class="fragment fade-in-then-out" style="position: absolute; right: 0;"  src="img/pay-popup.png">
+          <li class="fragment fade-in-then-semi-out">Não tem Copia/Cola ou Drag/Drop no Explorador de Arquivos</li>
+          <li class="fragment fade-in-then-semi-out">Customização não amigável, settings é um json</li>
+          <li class="fragment fade-in-then-semi-out">Não tem Copilot, nem outra IA integrável, zero condições de fazer vibe coding</li>
+        </ul>
+      </section>
+
+      <section data-background="#ffffff">
+      	<div style="display: flex; align-items: center; flex-direction: column;">
+      		<span>Mas principalmente...</span>
+      		<img class="fragment fade-out" src="img/drums.gif" style="width: auto; height: auto;">
+      		<div class="fragment" style="display: flex; align-items: center; justify-content: center;">
+      		 <h1 class=" vibrate-1 " style="position: absolute; top: 10%;">É PAGO!</h1>
+      		 <img class="" src="img/pay-popup.png" style="position: absolute; top: 30%;">
+      		</div>
+      	</div>
+        	<!-- <img class="fragment fade-in-then-out" src="img/pay-popup.png"> -->
+      </section>
+    </section>
+
+        <!-- Slide 5 -->
+    <section>
+      <h2>Comparação: Sublime Text vs VS Code</h2>
+
+  <table class="comparacao">
+    <tr>
+      <th>Critério</th>
+      <th>Sublime Text</th>
+      <th>VS Code</th>
+    </tr>
+    <tr>
+      <td>Velocidade</td>
+      <td>Extremamente leve e rápido</td>
+      <td>Razoavelmente rápido, mas mais pesado</td>
+    </tr>
+    <tr>
+      <td>Funcionalidades integradas</td>
+      <td>Editor básico, precisa de plugins</td>
+      <td>Completo: terminal, Git, debug etc.</td>
+    </tr>
+  
+  </table>
+    </section>
+
+    <section>
+    	<table class="comparacao">
+    	  <tr>
+      <td>Consumo de recursos</td>
+      <td>Baixíssimo</td>
+      <td>Mais alto (usa Electron)</td>
+    </tr>
+    <tr>
+      <td>Customização</td>
+      <td>Alta, via arquivos JSON</td>
+      <td>Alta, via interface e JSON</td>
+    </tr>
+    <tr>
+      <td>Extensões</td>
+      <td>Boa variedade (via Package Control)</td>
+      <td>Enorme marketplace de extensões</td>
+    </tr>
+    <tr>
+      <td>Git integrado</td>
+      <td>Não nativamente (precisa de plugin)</td>
+      <td>Sim, com interface visual nativa</td>
+    </tr>
+    <tr>
+      <td>Licença</td>
+      <td>Paga (com avaliação sem limite de tempo)</td>
+      <td>Gratuito e open source</td>
+    </tr>
+    <tr>
+      <td>Ideal para</td>
+      <td>Usuários que priorizam leveza e velocidade</td>
+      <td>Desenvolvedores que querem tudo integrado</td>
+    </tr>
+  </table>
+    </section>
+
+
+
+    <!-- Slide 6 -->
+    <section>
+      <h2>Obrigado! 🙌</h2>
+      <p class="fragment"> Guarde pra SI! </p>
+    </section>
+    </div>
+  </div>
+
+  <!-- JS do Reveal -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      center: true,
+      hash: true,
+      slideNumber: true,
+      transition: 'slide' // opções: none/fade/slide/convex/concave/zoom
+    });
+  </script>
+</body>
+</html>
